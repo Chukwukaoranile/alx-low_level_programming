@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
+*
 * Main - prints "with proper grammar, but for a piece of art,"
-* 
 * return - Always 0,
 */
 
