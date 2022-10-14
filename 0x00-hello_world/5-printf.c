@@ -6,7 +6,7 @@
 * return - Always 0,
 */
 
-int main(void) //void description
+int main(void)
 {
 
 printf("Programming is like building a multilingual puzzle\n");

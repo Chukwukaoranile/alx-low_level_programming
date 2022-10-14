@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -s -o cfile.i cfile.c
+gcc -s -o 0-preprocessor.i 0-preprocessor.c
