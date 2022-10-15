@@ -1,5 +1,5 @@
 /**
-0;276;0c* Main - prints the alphabet in lowercase, and then in uppercase
+* Main - prints the alphabet in lowercase, and then in uppercase
 *
 *Return: Always 0
 */
