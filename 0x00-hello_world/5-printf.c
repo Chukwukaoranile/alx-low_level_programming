@@ -8,7 +8,6 @@
 
 int main(void)
 {
-	printf("%d\n", "Programming is like building a multilingual puzzle);
-);
+	printf("%s", "Programming is like building a multilingual puzzle\n");
 	return (0);
 }
