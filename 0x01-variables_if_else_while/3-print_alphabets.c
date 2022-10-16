@@ -6,7 +6,7 @@
 *Return: Always 0
 */
 
-int main(void) //character in lowercase
+int main(void)
 {
 	char ch;
 	char c;
