@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_triangle - Prints a sqare using the character #.
+ * print_sqare - Prints a sqare using the character #.
  * @size: The size of the sqare.
  */
 
@@ -9,7 +9,7 @@ void print_square(int size)
 {
 	int hgt, wid;
 
-	if (size = 0)
+	if (size > 0)
 	{
 		for (hgt = 0; hgt < size; hgt++)
 		{
