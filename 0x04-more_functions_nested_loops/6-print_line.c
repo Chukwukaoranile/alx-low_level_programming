@@ -6,7 +6,7 @@
  */
 
 void print_line(int n)
-
+{
 	int draw;
 
 	if (n > 0)
