@@ -1,4 +1,5 @@
 #include <main.h>
+
 /**
  * main - Prints _putchar
  *
@@ -7,7 +8,7 @@
 
 int _putchar(char c)
 {
-	
+
 	_Putchar("_");
 	_Putchar("p");
 	_putchar("u");
@@ -16,6 +17,6 @@ int _putchar(char c)
 	_putchar("h");
 	_putchar("a");
 	_putchar("r");
-	
+
 	return (0);
 }
