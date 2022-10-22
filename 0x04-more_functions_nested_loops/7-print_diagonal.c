@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_diagonal - Draw a diagonal line using the \ character.
- * @n: The number of \ characters to be printed.
+ * main - check the code
+ *
+ * Return: Always 0
  */
-
 void print_diagonal(int n)
 {
 	int draw, diag;
