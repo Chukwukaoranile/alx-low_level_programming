@@ -6,6 +6,8 @@
  * Return: Always 0
  */
 
+void _putchar()
+
 int _putchar(char c)
 {
 
