@@ -19,7 +19,7 @@ void print_diagonal(int n)
 
 			if (draw == n - 1)
 				continue;
-		
+	
 			_putchar('\n');
 		}
 	}
