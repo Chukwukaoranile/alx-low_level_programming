@@ -1,22 +1,20 @@
 #include <main.h>
 
 /**
- * main - Prints _putchar
+ * main - Entry point
  *
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
-
-void _putchar(void)
+int main(void)
 {
-
-	_Putchar("_");
-	_Putchar("p");
-	_putchar("u");
-	_putchar("t");
-	_putchar("c");
-	_putchar("h");
-	_putchar("a");
-	_putchar("r");
+	char *sh = "_putchar";
+	
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
+	_putchar('\n');
 
 	return (0);
 }
