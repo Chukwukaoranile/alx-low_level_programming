@@ -6,9 +6,7 @@
  * Return: Always 0
  */
 
-void _putchar()
-
-int _putchar(char c)
+void _putchar(void)
 {
 
 	_Putchar("_");
