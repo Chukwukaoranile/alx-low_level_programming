@@ -10,15 +10,15 @@ void print_alphabet_x10(void)
 {
 	int n, co;
 
-	co = 10
+	co = 10;
 
-	while (c <  10)
+	while (co <  10)
 	{
-		for (n = 'a'; n <= z; n++)
+		for (n = 'a'; n <= 'z'; n++)
 		{
 			_putchar('n');
 		}
-		co++
+		co++;
 
 			_putchar('\n');
 
