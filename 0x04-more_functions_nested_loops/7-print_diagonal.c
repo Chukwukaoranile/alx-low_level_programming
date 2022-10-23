@@ -3,27 +3,25 @@
 /**
  * main - check the code
  *
- * Return: Always 0
+ * Return: Success
  */
 void print_diagonal(int n)
 {
-	int c, i;
+	int draw, diag;
 
-	c = 0;
-
-	while (n > 0)
+	if (n > 0)
 	{
-		i = c;
-		while (i > 0)
+		for (draw = 0; draw < n; draw++)
 		{
-			_putchar(' ');
-			i--;
-		}
+			for (diag = 0; diag < draw; diag++)
+				_putchar(' ');
 			_putchar('\\');
-			_putchar('\n');
-			c++;
-			n--;
+
+			if (draw == n - 1)
+				continue;
+				_putchar('\n');
+		}
 	}
-	if (c < 1)
-		_putchar('\n');
+
+			_putchar('\n');
 }
