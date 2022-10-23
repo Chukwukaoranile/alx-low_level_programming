@@ -2,7 +2,7 @@
 
 /**
  * main - Filter out the 99.5% of programming job candidates.
- * Return: Successful
+ * Return: successful
  */
 
 int main(void)
