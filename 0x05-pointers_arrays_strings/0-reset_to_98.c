@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - reset_t0_98 func int.
- * @n pointers
+ * main - Reset_to_98, function that takes a pointer to an int as parameter.
+ * @n: pointers.
  * Return: 98
  */
 
