@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - Function that takes a pinter as int.
- *
+ * main - reset_t0_98 func int.
+ * @n pointers
  * Return: 98
  */
 
