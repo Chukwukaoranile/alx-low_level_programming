@@ -5,7 +5,6 @@
  * @str: The string to be printed
  * Return: one char of two strings.
  */
-
 void puts2(char *str)
 {
 	int index = 0, len = 0;
