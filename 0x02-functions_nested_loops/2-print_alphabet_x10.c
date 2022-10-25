@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - print_alphabet_x10
- *
+ * print_alphabet_x10 - function that prints 10 times the alphabet
+ * @_putchar - to be printed.
  * Return: x10 a-z
  */
 
