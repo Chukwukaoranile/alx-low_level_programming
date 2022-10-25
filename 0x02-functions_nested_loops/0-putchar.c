@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - Entry point
- *
+ * main - Entry point.
+ * @_putchar: Tp be printed
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -10,7 +10,7 @@ int main(void)
 
 	while (*sh)
 	{
-		_putchar(*sh);
+		_putchar('*sh');
 		sh++;
 	}
 	_putchar('\n');
