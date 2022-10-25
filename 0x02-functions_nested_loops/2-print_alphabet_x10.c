@@ -19,10 +19,10 @@ void print_alphabet_x10(void)
 			_putchar(n);
 		}
 
-		_putchar(co)
+		_putchar(co);
 		co++;
 
-	_putchar('\n');
+		_putchar('\n');
 
 	}
 }
