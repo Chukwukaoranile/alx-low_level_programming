@@ -24,8 +24,9 @@ char *cap_string(char *s)
 			{
 				if ((*(s + x) >= 97) &&  (*(s + x) <= 122))
 					*(s + x) -= 32;
+			}
 		}
-		x++
+		x++;
 	}
 	return (s);
 }
