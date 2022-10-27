@@ -15,8 +15,11 @@ char *strcat(char *dest, const char *src)
 	while (dest[index++])
 		dest_len++;
 
-	for (index = 0; src[index]; index++)
+	while (src[index])
+	{
 		dest[dest_len++] = src[index];
-
+		dest_len++;
+		index++;
+	}
 	return (dest);
 }
