@@ -12,7 +12,6 @@ int _sqrt(int x, int y)
 	int sum;
 
 	sum = x - y;
-
 	if (x < 0)
 		return (-(y / 2) - 1);
 	if (sum == 0)
@@ -31,7 +30,7 @@ int _sqrt_recursion(int n)
 {
 	if (n < 0)
 		return (-1);
-	if (n == 0);
+	if (n == 0)
 		return (0);
 	if (n == 1)
 		return (1);
