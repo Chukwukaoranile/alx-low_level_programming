@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion - a function that returns the natural square
+ * _sqrt - A function that returns the natural square
  *
- * @n: Number for the square root
+ * @x: The Variable 1
+ * @y: The variable 2
  * Return: The value of the square root
  */
 
@@ -21,7 +22,7 @@ int _sqrt(int x, int y)
 }
 /**
  * _sqrt_recursion - the sqaure root
- * @n: number radicando
+ * @n: Parameter
  *
  * Return: result
  */
