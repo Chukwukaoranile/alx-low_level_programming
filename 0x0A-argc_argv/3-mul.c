@@ -5,7 +5,7 @@
  * main - a program that multiplies two numbers
  *
  * @argc: num 1
- * @num 2
+ * @argv: num 2
  *
  * Return: 0
  */
