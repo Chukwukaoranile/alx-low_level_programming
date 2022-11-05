@@ -13,7 +13,7 @@
 
 int main(int argc, char *argv[])
 {
-	int kobo, coins = 0;
+	int cents, coins = 0;
 
 	if (argc != 2)
 	{
@@ -21,25 +21,25 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	kobo = atoi(argv[1]);
+	cents = atoi(argv[1]);
 
-	while (kobo > 0)
+	while (cents > 0)
 	{
 		coins++;
-		if ((kobo - 25) >= 0)
+		if ((cents - 25) >= 0)
 		{
-			kobo -= 25;
+			cents -= 25;
 			continue;
 		}
-		if ((kobo - 10) >= 0)
+		if ((cents - 10) >= 0)
 		{
-			kobo -= 10;
+			cents -= 10;
 			continue;
 		}
-		kobo--;
+		cents--;
 	}
 
-	printf("%d\n", kobo);
+	printf("%d\n", cents);
 
 	return (0);
 }
