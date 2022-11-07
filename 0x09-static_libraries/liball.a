@@ -1,0 +1,16 @@
+!<arch>
+my.c/           0           0     0     644     0         `
+_putchar.c/     0           0     0     644     155       `
+#include "main.h"
+
+/**
+ * _putchar - print the characters
+ * @c: Charater to be printed
+ * Return: successful 0
+ */
+
+int _putchar(char c)
+{
+	return (0);
+}
+
