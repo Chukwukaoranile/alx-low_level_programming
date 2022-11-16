@@ -28,10 +28,9 @@ int _strlen(char *s)
  * Return: the pointer to dest
  */
 
- char *_strcpy(char *dest, char *src)
- {
-
- 	int len, i;
+char *_strcpy(char *dest, char *src)
+{
+	int len, i;
 
 	len = 0;
 
@@ -47,7 +46,8 @@ int _strlen(char *s)
 	dest[i] = '\0';
 
 	return (dest);
- }
+}
+
 /**
  * new_dog - creates a new dog
  * @name: name to initialize
