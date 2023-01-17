@@ -4,11 +4,11 @@
 /**
  * main - check the code.
  *
- * Return: Always Exit_SUCCESS.
+ * Return: 0
  */
 
 int main(void)
 {
 	printf("%d\n", _strlen("100-operations"));
-	return (Exit_SUCCESS);
+	return (0);
 }
